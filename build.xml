@@ -29,7 +29,7 @@
     <jar jarfile="${dist}/lib/servantsquarters.test-${DSTAMP}.jar" basedir="${build}"/>
   </target>
   
-  <target name="test" depends="" description="test all the things">
+  <target name="test" depends="dist" description="test all the things">
       <echo> testing ... 1. 2. 3.</echo>
       </target>
 
