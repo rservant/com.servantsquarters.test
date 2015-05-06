@@ -28,6 +28,10 @@
     <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
     <jar jarfile="${dist}/lib/servantsquarters.test-${DSTAMP}.jar" basedir="${build}"/>
   </target>
+  
+  <target name="test" depends="" description="test all the things">
+      <echo> testing ... 1. 2. 3.</echo>
+      </target>
 
   <target name="clean"
         description="clean up" >
